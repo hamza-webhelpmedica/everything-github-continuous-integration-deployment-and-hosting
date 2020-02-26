@@ -24,11 +24,10 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         npm install
-        npm install -g @angular/cli
+        # npm install -g @angular/cli
         npm run lint
-        npm run dns
-        npm run add
-        npm run ng deploy --base-href=/everything-github-continuous-integration-deployment-and-hosting/ --name="hamza-webhelpmedica" --email=hamza.bedoui@webhelpmedica.com
+        # npm run dns
+        #npm run add        
         # npm run ng -- deploy --base-href=/everything-github-continuous-integration-deployment-and-hosting/ --name="hamza-webhelpmedica" --email=hamza.bedoui@webhelpmedica.com
         ###
         # Configure Angular first!

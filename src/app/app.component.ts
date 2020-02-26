@@ -9,9 +9,9 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   title = 'everything-github-demo';
   book: any = {};
-  constructor(http: HttpClient){    
+  constructor(http: HttpClient) {
     http.get('https://api.angular.schule/book/9783864906466')
-        .subscribe(b => this.book = b);
+      .subscribe(b => this.book = b);
   }
 
 }

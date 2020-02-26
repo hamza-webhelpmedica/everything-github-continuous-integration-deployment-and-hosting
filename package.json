@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "lint": "ng lint",
+    "dns": "ng deploy --cname=everything-github-continuous-integration-deployment-and-hosting.hamza.webhelpmedica",
     "add": "ng add angular-cli-ghpages",
     "deploy": "ng deploy --base-href=/everything-github-continuous-integration-deployment-and-hosting/"
   },

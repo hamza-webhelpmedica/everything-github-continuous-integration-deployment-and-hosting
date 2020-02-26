@@ -7,6 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title: 'hello hamza !!';
   book: any = { };
 
   constructor(http: HttpClient) {

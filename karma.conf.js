@@ -16,7 +16,7 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, './coverage/everything-github-demo'),
+      dir: require('path').join(__dirname, './coverage/everything-github-continuous-integration-deployment-and-hosting'),
       reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
     },

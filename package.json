@@ -1,5 +1,5 @@
 {
-  "name": "everything-github-demo",
+  "name": "everything-github-continuous-integration-deployment-and-hosting",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

@@ -13,7 +13,3 @@ jobs:
             - run: npm install
             - run: npm lint
             - run: npm run ng -- deploy --base-href=/everything-github-continuous-integration-deployment-and-hosting/ --name="hamza-webhelpmedica" --email=hamza.bedoui@webhelpmedica.com
-workflows:
-    build-and-deploy :
-      jobs:
-        - build-and-deploy

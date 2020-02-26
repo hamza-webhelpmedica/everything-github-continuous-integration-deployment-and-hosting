@@ -4,8 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",    
-    "lint": "ng lint"
+    "build": "ng build",
+    "lint": "ng lint",
+    "add": "ng add angular-cli-ghpages",
+    "deploy": "ng deploy --base-href=/everything-github-continuous-integration-deployment-and-hosting/"
   },
   "private": true,
   "dependencies": {

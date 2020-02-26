@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'hello hamza !!';
+  parag = 'lorem';
   book: any = {};
 
   constructor(http: HttpClient) {

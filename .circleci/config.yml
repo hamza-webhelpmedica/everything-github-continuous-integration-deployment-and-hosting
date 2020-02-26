@@ -1,0 +1,19 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: npm install
+            - run: npm lint
+            - run: npm run ng -- deploy --base-href=/everything-github-continuous-integration-deployment-and-hosting/ --name="hamza-webhelpmedica" --email=hamza.bedoui@webhelpmedica.com
+workflows:
+    build-and-deploy :
+      jobs:
+        - build-and-deploy

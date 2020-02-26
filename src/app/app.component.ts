@@ -6,8 +6,7 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'everything-github-demo';
+export class AppComponent {  
   book: any = {};
   constructor(http: HttpClient) {
     http.get('https://api.angular.schule/book/9783864906466')
